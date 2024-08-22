@@ -5,7 +5,7 @@ import { DirectivesComponent } from './pages/directives/directives.component';
 
 // http://localhost:4200/
 // http://localhost:4200/home
-// http://localhost:4200/about
+// http://localhost:4200/directives
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'directives', component: DirectivesComponent },

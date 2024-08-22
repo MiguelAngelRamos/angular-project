@@ -1,1 +1,17 @@
-<p>directives works!</p>
+<div class="container">
+  <h2>Ejemplos de directivas en Angular</h2>
+
+  <!-- condicionales if-->
+   <div *ngIf="isVisible" class="alert alert-success">
+    !Este mensaje se muestra por que 'isVisible  es verdadero'!
+   </div>
+
+   <!-- Ciclo for -->
+
+   <h3>Lista de Estudiantes</h3>
+
+   <ul>
+    <li *ngFor="let student of students; let i = index" [id] = "'student-' +  i">{{student}} </li>
+   </ul>
+
+</div>

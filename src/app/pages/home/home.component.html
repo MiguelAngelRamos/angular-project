@@ -2,6 +2,11 @@
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">{{ title }}</h5>
+      <h1 class="display-3">{{ count }}</h1>
+
+      <button class="btn btn-primary" (click)="increment()">Increment</button>
+
+      <button class="btn btn-danger" (click)="decrement()">Decrement</button>
     </div>
   </div>
 </div>

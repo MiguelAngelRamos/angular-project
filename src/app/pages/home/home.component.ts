@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  title: string = 'Hola Mundo';
+  title: string = 'App de contador';
+  count: number = 0;
+
+  increment() { 
+    // this.count = this.count + 1;
+    this.count++;
+  }
+
+  decrement() {
+    // this.count = this.count - 1;
+    this.count--;
+  }
 }
